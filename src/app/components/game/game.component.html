@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="letras">
+    <button (click)="traerLetra('a')">A</button>
+    <button (click)="traerLetra('b')">B</button>
+    <button (click)="traerLetra('c')">C</button>
+    <button (click)="traerLetra('d')">D</button>
+    <button (click)="traerLetra('e')">E</button>
+    <button (click)="traerLetra('f')">F</button>
+    <button (click)="traerLetra('g')">G</button>
+    <button (click)="traerLetra('h')">H</button>
+    <button (click)="traerLetra('i')">I</button>
+    <button (click)="traerLetra('j')">j</button>
+    <button (click)="traerLetra('k')">K</button>
+    <button (click)="traerLetra('l')">L</button>
+    <button (click)="traerLetra('m')">M</button>
+    <button (click)="traerLetra('n')">N</button>
+    <button (click)="traerLetra('ñ')">Ñ</button>
+    <button (click)="traerLetra('o')">O</button>
+    <button (click)="traerLetra('p')">P</button>
+    <button (click)="traerLetra('q')">Q</button>
+    <button (click)="traerLetra('r')">R</button>
+    <button (click)="traerLetra('s')">S</button>
+    <button (click)="traerLetra('t')">T</button>
+    <button (click)="traerLetra('u')">U</button>
+    <button (click)="traerLetra('v')">V</button>
+    <button (click)="traerLetra('w')">W</button>
+    <button (click)="traerLetra('x')">X</button>
+    <button (click)="traerLetra('y')">Y</button>
+    <button (click)="traerLetra('z')">Z</button>
+
+  </div>
+  <div class="game">
+    <h3>Vidas restantes : {{vidas}} </h3>
+    <div class="palabra">
+      <div *ngFor="let item of palabraArray" >
+        <span>_</span>
+      </div>
+  </div>
+  </div>
+</div>
